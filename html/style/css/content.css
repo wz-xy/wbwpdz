@@ -16,7 +16,7 @@ section{overflow: hidden;}
 .about-mian .aboutmenu .menutitle p{display: inline-block;}
 .about-mian .aboutmenu>ul{}
 .about-mian .aboutmenu>ul>li{position: relative;height:60px;line-height:60px;}
-.about-mian .aboutmenu>ul>li a{display:block;width:100;height:100%;color:#666666;font-size:16px;}
+.about-mian .aboutmenu>ul>li a{display:block;width:100%;height:100%;color:#666666;font-size:16px;}
 .about-mian .aboutmenu>ul>li i{position:absolute;right:0;top:50%;display:none;width: 0;height: 0;margin-top:-5px;border: 6px solid transparent;border-right-color: #2c7adf;}
 .about-mian .aboutmenu>ul>li:hover a{color:#2c7adf;background:#eaf1fe;border-right:2px solid #2c7adf;}
 .about-mian .aboutmenu>ul>li:hover i{display:block;}
@@ -123,7 +123,7 @@ color: #fff; text-align: center; display: block; font-family: "simsun"; font-siz
 .applyimgad{}
 .applyimgad img{opacity: 0;}
 .apply .title{color:#333333;font-size:32px;text-align:center;line-height:40px;padding:50px 0 10px;}
-.apply .normal{color:#666666;font-size:14px;line-height:25px;padding-bottom:50px;text-align: center;}
+.apply .normal{color:#666666;font-size:14px;line-height:25px;padding-bottom:50px;text-align:center;}
 .apply-mian .tabul{height:320px;}
 .apply-mian .tabul li{float:left;width:33.33%;margin-bottom:20px;text-align: center;overflow:hidden;}
 .apply-mian .tabul li>div{margin:0 40px;border:1px solid #eeeeee;border-radius:4px;}
@@ -131,6 +131,7 @@ color: #fff; text-align: center; display: block; font-family: "simsun"; font-siz
 .apply-mian .tabul li>div p{color:#333333;font-size:20px;line-height:40px;}
 .apply-mian .tabul li>div span{display: inline-block;width:60%;margin:0 auto 20px;color:#666666;font-size:12px;line-height:25px;}
 .applypic{height:676px;margin:40px 0 20px;clear: both;}
+.applypic img{opacity:0;}
 .apply .tabdiv{width:1200px;margin:0 auto;}
 .apply .graydiv{background:#f2f2f2;overflow: hidden;}
 .apply .graydiv .botlist{width:1230px;margin:0 auto;}
@@ -139,7 +140,7 @@ color: #fff; text-align: center; display: block; font-family: "simsun"; font-siz
 .apply .graydiv .botlist ul li>div{margin:0 15px 20px;padding-bottom:45px;border-radius:4px;background:#fff;text-align: center;box-shadow:0 0 10px #eee;;}
 .apply .graydiv .botlist ul li>div .toppic{height:135px;}
 .apply .graydiv .botlist ul li>div .toppic img{padding-top:45px;}
-.apply .graydiv .botlist ul li>div p{color:#333;font-size:20px;}
+.apply .graydiv .botlist ul li>div p{margin-bottom:20px; color:#333;font-size:20px;}
 .apply .graydiv .botlist ul li>div span{font-size:12px;color:#666666;}
 .apply .tabdiv .tabin .slider-main{width:1065px;margin:0 auto;}
 .apply .tabdiv .tabin .picdiv{margin-top:50px;overflow: hidden;}
@@ -168,7 +169,7 @@ color: #fff; text-align: center; display: block; font-family: "simsun"; font-siz
 .download-file li img{margin-top:54px;}
 .download-file li p{margin-bottom:30px; padding:8px 10px 0 10px; line-height:15px; text-align:center; font-size:14px; color:#333;}
 .download-btn{padding:24px 0; border-top:1px solid #eeee; text-align:center; }
-.download-btn a{height:30px; padding:2px 15px; line-height:30px; border:1px solid #eee;border-radius:20px;font-size:14px; color:#666; background:#fff;}
+.download-btn a{height:40px; padding:10px 40px; line-height:40px; border:1px solid #eee; border-radius:20px; font-size:16px; color:#666; background:#fff;}
 .download-btn a:hover{color:#fff; border:0; background:#088eef;}
 .download-btn a:active{color:#fff; border:0; background:#088eef;}
 /*-------------------------
@@ -178,7 +179,7 @@ color: #fff; text-align: center; display: block; font-family: "simsun"; font-siz
 .news-mian{margin:38px 0 80px 0px;}
 .news-bor{height:64px; border-bottom:1px solid #eee;}
 .news-tab{width:1200px; margin:0 auto; text-align:center;}
-.news-tab li{display:inline-block; height:64px; margin:0 11px; padding:0 30px; line-height:64px; border-radius:4px 4px 0px 0; text-align:center; font-size:18px; color:#666; cursor:pointer; background:#eaf1fe;}
+.news-tab li{display:inline-block; height:64px; margin:0 11px; padding:0 50px; line-height:64px; border-radius:4px 4px 0px 0; text-align:center; font-size:18px; color:#666; cursor:pointer; background:#eaf1fe;}
 .news-tab li.news-tabact{color:#fff; background:#257ee2;}
 .news-conlist{display:none; width:1200px; margin:84px auto 0;}
 .news-conlist .news-listdetails{position:relative; padding:30px 0; border-bottom:1px solid #eee; overflow:hidden;}
