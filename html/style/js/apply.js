@@ -7,6 +7,8 @@ $(function(){
 	//banner背景
 	let srcd="url("+$(".applyimgad img").prop("src")+") no-repeat center top"
 	$(".applyimgad").css("background",srcd)
+	let srccon="url("+$(".applypic img").prop("src")+") no-repeat center top"
+	$(".applypic").css("background",srccon)
 	//放大图
 	$(".picdiv li img").on("click",function(){
 		var srcd=$(this).prop("src");
