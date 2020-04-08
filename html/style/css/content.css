@@ -161,7 +161,7 @@ color: #fff; text-align: center; display: block; font-family: "simsun"; font-siz
 /*-------------------------
   下载中心-陈秀英
 --------------------------*/
-.download-mian{height:692px; background:url(../img/content/download/download-bg.jpg) no-repeat center center;}
+.download-mian{min-height:692px; background:url(../img/content/download/download-bg.jpg) no-repeat center center;}
 .download-title{padding-top:120px; text-align:center; font-size:36px; color:#fff;}
 .download-file{margin-top:76px;}
 .download-file li{float:left; width:262px; margin-right:50px; border-radius:4px; text-align:center; background:#fff;}
@@ -172,6 +172,22 @@ color: #fff; text-align: center; display: block; font-family: "simsun"; font-siz
 .download-btn a{height:40px; padding:10px 40px; line-height:40px; border:1px solid #eee; border-radius:20px; font-size:16px; color:#666; background:#fff;}
 .download-btn a:hover{color:#fff; border:0; background:#088eef;}
 .download-btn a:active{color:#fff; border:0; background:#088eef;}
+/*国危标识平台APP*/
+.download-mian .banner{height:660px;overflow:hidden;}
+.download-mian .banner img{opacity: 0;}
+.download-mian .bannerbot{height:375px;overflow:hidden;}
+.download-mian .bannerbot img{opacity: 0;}
+.download-mian .whitepart{height:500px;background:#fff;}
+.download-mian .graypart{height:500px;background:#f2f2f2;}
+.download-mian .pleft{float:left;width:50%;}
+.download-mian .pright{float:left;width:50%;}
+.download-mian .pleft,.download-mian .pright{padding-top:90px;}
+.download-mian .title{padding-top:60px;line-height:70px;color:#2c7adf;font-size:32px;}
+.download-mian .normal{line-height:30px;color:#666666;font-size:18px;}
+.download-mian .pleft>p{padding-left:180px;}
+.download-mian .pleft>img{padding-left:180px;}
+.download-mian .pright>p{padding-left:180px;}
+.download-mian .pright>img{padding-left:70px;}
 /*-------------------------
              新闻中心
 --------------------------*/
