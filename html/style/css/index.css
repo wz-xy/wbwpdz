@@ -8,7 +8,8 @@ select,input:focus{outline:none;}
 /*边距*/
 
 /*字体*/
-.text-r{text-align:right;}
+.text-r{text-align:right!important;}
+.text-l{text-align:left!important;}
 /*边框*/
 .bor-r{border-right:0!important;}
 /*-------------------------
@@ -30,15 +31,14 @@ header .logoimg{position:absolute;top:20px;left:0px;}
 header .topright{padding:0 0px 0 540px;}
 header .topright ul{padding-top:0px;}
 header .topright ul li{position:relative; float:left;width:auto;height:66px;line-height:66px;}
-header .topright ul li a{position: relative;display:block;height:64px;line-height:64px;padding:0 10px;color:#666;font-size:14px;}
+header .topright ul li a{position: relative;display:block;height:64px;line-height:64px;padding:0 15px;color:#666;font-size:14px;}
 header .topright ul li:hover a{border-bottom:2px solid #2c7adf;color:#2c7adf}
 header .topright ul li a i{position:absolute;left:50%;bottom:-5px;display:none;border: solid #2c7adf;border-width: 0 3px 3px 0;padding: 2px;  transform: rotate(-135deg);-webkit-transform: rotate(-135deg);}
 header .topright ul li:hover a{display:block;}
 header .topright ul li:hover a i{display:block;}
 header .topright ul li.ac a{border-bottom:2px solid #2c7adf;color:#2c7adf}
 header .topright ul li.ac a i{display:block;}
-header .topright .topra{position:absolute;top:16px;right:0px;height:36px;line-height:36px;padding:0 15px;background:#2b7be0;border-radius:4px;}
-header .topright .topra a{color:#fff;font-size:14px;}
+header .topright a.topra{position:absolute; top:16px; right:0px; display:block; height:36px; line-height:36px; padding:0 15px; border-radius:4px; font-size:14px; color:#fff; background:#2b7be0;}
 header .topright .topra:hover{color:#eee;background:#5198f2}
 /*二级菜单*/
 header .topright ul li p.twomenu{display:none; position:absolute; left:-38px; top:66px; z-index:99; width:150px; padding:15px 0px; border-radius:0 0 4px 4px; background:#fff;}
@@ -82,8 +82,8 @@ footer .fbot{height:40px;line-height:40px;text-align:center;background:#0f1521;c
 .jDiaporama_controls .pause{ top:50%; left:50%; width:64px; height:48px; margin-left:-32px; margin-top:-24px; background:url(../img/index/playpause.png) no-repeat top;}
 .jDiaporama_controls .play{ top:50%; left:50%; width:64px; height:48px; margin-left:-32px; margin-top:-24px; background:url(../img/index/playpause.png) no-repeat bottom;}*/
 /*标识查询*/
-.index-search{position:relative; top:-50px; width:936px; margin:0 auto; border-radius:4px; box-shadow:0px 0px 10px #ccc; background:#fff;}
-.index-search .index-select{width:150px; height:60px; border:0; border-radius:4px 0px 0px 4px; line-height:60px; text-align:center; text-indent:20px; font-size:16px; color:#666; cursor:pointer;}
+.index-search{position:relative; top:-50px; width:936px; margin:0 auto; border-radius:4px; box-shadow:0px 0px 10px rgba(0,0,0,0.2); background:#fff;}
+.index-search .index-select{width:150px; height:60px; padding:0 20px; border:0; border-radius:4px 0px 0px 4px; line-height:60px; font-size:16px; color:#666; cursor:pointer;}
 .index-search .index-input{width:600px; height:60px; padding:0 10px; border:0; border-left:1px solid #eee; line-height:60px; font-size:16px; color:#666;}
 .index-search .index-button{position:absolute; top:0; right:0; width:155px; height:62px; line-height:62px; border:0; border-radius:0 4px 4px 0; text-indent:20px; font-size:16px; color:#fff; cursor:pointer; background:url(../img/index/search.png) no-repeat 50px 22px #297ce0;}
 /*视频新闻*/
@@ -107,7 +107,7 @@ footer .fbot{height:40px;line-height:40px;text-align:center;background:#0f1521;c
 .index-scroll{height:345px; overflow:hidden;}
 .index-scroll ul li{position:relative; height:35px; line-height:35px; margin:0 20px;}
 .index-scroll ul li a{display:block; padding:0 60px 0 0px; font-size:14px; color:#666; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
-.index-scroll ul li a:hover{color:#999;}
+.index-scroll ul li a:hover{color:#1786e8;}
 .index-scroll ul li span{position:absolute; right:0; top:0; font-size:14px; color:#999;}
 /*服务体系*/
 .index-fwtx{height:800px; margin-bottom:60px; overflow:hidden; background:url(../img/index/fwtx-bg.jpg) center center no-repeat;}
